@@ -668,9 +668,12 @@ button:hover {
 }
 
 @media screen and (max-width: 568px) {
+    .container {
+        margin: 0 20px;
+    }
+
     .main {
-        flex-direction: column-reverse;
-        
+        flex-direction: column-reverse;    
     }
 
     .main-img img {
@@ -810,5 +813,47 @@ button:hover {
 
     .footer-container-box-two--box h3 {
         margin-top: 30px;
+    }
+
+    .footer-container-box-one--social svg {
+        width: 32px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .main-text h1 {
+        font-size: 30px;
+    }
+
+    .main-text h3 {
+        font-size: 15px;
+    }
+
+    .icon svg {
+        width: 52px;
+    }
+
+    .feature {
+        padding: 50px 0px;
+    }
+
+    .feature-text h1 {
+        font-size: 34px;
+    }
+
+    .hire {
+        padding-top: 50px;
+    }
+
+    .hire-container-text h1 {
+        font-size: 30px;
+    }
+
+    .hire-container-text p {
+        text-align: justify;
+    }
+
+    .testimonial-text h1 {
+        font-size: 28px;
     }
 }
