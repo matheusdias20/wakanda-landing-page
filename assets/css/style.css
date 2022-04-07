@@ -351,6 +351,7 @@ button:hover {
 }
 
 .talent {
+    padding-top: 70px;
     margin-bottom: 70px;
 }
 
@@ -700,7 +701,7 @@ button:hover {
     }
 
     .icon svg {
-        width: 75px;
+        width: 52px;
     }
 
     .feature-text {
@@ -721,15 +722,20 @@ button:hover {
 
     .feature-box svg {
         width: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .feature-box-container .feature-box h2 {
         margin-top: 0px;
         font-size: 24px;
+        text-align: center;
     }
 
     .feature-box-container .feature-box p {
         font-size: 14px;
+        text-align: center;
     }
 
     .feature-box-container .feature-box:not(:last-child) {
@@ -830,7 +836,7 @@ button:hover {
     }
 
     .icon svg {
-        width: 52px;
+        width: 40px;
     }
 
     .feature {
